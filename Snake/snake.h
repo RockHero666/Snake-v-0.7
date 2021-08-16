@@ -1,4 +1,4 @@
-#ifndef SNAKE_H
+﻿#ifndef SNAKE_H
 #define SNAKE_H
 #include<QMainWindow>
 #include <QKeyEvent>
@@ -33,7 +33,7 @@ Q_OBJECT
       static const int B_WIDTH = 340;
       static const int B_HEIGHT = 420;
       static const int DOT_SIZE = 10;
-      static const int ALL_DOTS = 1428;// 32*42
+      static const int ALL_DOTS = 900;// 30*30
       static const int RAND_POS = 29;
 
 
