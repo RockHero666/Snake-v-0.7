@@ -1,0 +1,6 @@
+QPushButton {
+            color: red;
+
+            border-image: url(powerButton1.png)  ;
+
+        }
