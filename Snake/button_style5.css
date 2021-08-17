@@ -1,6 +1,6 @@
 QPushButton {
             color: red;
 
-            border-image: url(arrow_down.png)  ;
+            border-image: url(image/arrow_down.png)  ;
 
         }

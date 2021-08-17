@@ -99,11 +99,11 @@ void Snake::Ui_setting()
 
 void Snake::loadImages() {
 
-    pix.load("snakeF.png");
-    dot.load("snake.png");
-   // tale.load("tale.png");
-    head.load("head.png");
-    apple.load("apple.png");
+    pix.load("image/snakeF.png");
+    dot.load("image/snake.png");
+   // tale.load("image/tale.png");
+    head.load("image/head.png");
+    apple.load("image/apple.png");
 
 }
 
@@ -325,7 +325,7 @@ void Snake::restart()
      inGame = true;
      doMove = true;
      hc=RIGHT;
-     head.load("head.png");
+     head.load("image/head.png");
 
      for (int z = 0; z < dots; z++) {
          x[z] = 0;
