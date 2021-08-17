@@ -258,10 +258,12 @@ void Snake::timerEvent(QTimerEvent *e) {
 
         checkApple();
         checkCollision();
+        repaint();
         move();
+
     }
 
-    repaint();
+
 }
 
 void Snake::keyPressEvent(QKeyEvent *e) {
